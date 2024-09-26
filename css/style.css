@@ -2330,14 +2330,18 @@ body {
 
 @media only screen and (min-width: 415px) {
   section.home {
-    min-height: 175vh;
+    min-height: 220vh;
   }
 
-  @media only screen and (min-width: 415px) {
+  @media only screen and (min-width: 700px) {
   section.home {
-    min-height: 175vh;
+    min-height: 180vh;
   }
 
+  @media only screen and (min-width: 992px) {
+  section.home {
+    min-height: 126vh;
+  }
 
 @media only screen and (max-width: 768px) {
   section.home {
